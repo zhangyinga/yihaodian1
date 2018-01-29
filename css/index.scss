@@ -1,0 +1,229 @@
+body,ul,p,img,p{
+    margin: 0; padding: 0; list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    width: 1201px; margin: 0 auto;
+    margin-bottom: 5px;
+    .content{
+        
+        width: 100%; height: 44px;
+        line-height: 44px;
+        border-bottom: 2px solid #FF4300;
+        div{
+            width: 211px; height: 100%;
+            float: left; padding-left: 35px;
+            background: #FF3C3C; 
+            a{color: white; font-size: 20px; text-decoration: none;}
+        }
+        ul{
+            width: 620px;margin: 0;
+            float: left;margin-left: 12px;
+            li{
+                float: left;
+                font-size: 12px;
+                margin-left: 10px;
+            }
+        }
+        p{
+            width: 130px; margin: 0;
+            margin-left: 16px;
+            float: left;
+        }
+    }
+    .main{
+        width: 100%; height: 399px;
+        float: left; margin-bottom: 22px;
+        .main-left{
+            width: 211px;height: 100%;
+            background: #B01D1D;
+            float: left;position: relative;
+            color: white;
+            #animate1{
+                height: 40px;line-height: 40px;
+                
+                img{float: left; margin-left: 10px; margin-top: 11px;}
+                p{float: left; margin-left: 10px; margin-bottom: 0;}
+                span{float: right; margin-right: 10px; margin-top: 10px;}
+            }
+            #animate1:hover{
+                background: white; color: orangered;
+                margin-left: 10px;
+            }
+            #animate2{
+                position: absolute;
+                display: none;
+                top: 0;left: 211px;
+                padding: 20px;
+                background: white;
+                width: 980px; height: 399px;
+                color: black;
+                z-index: 2;
+                .animate2-i{
+                    float: right;
+                }
+                li{float: left;width: 200px; margin-right: 20px;}
+                img{width: 230px; height: 190px; margin: 0;}
+                dl{margin-bottom: 20px;}
+                dt{margin-bottom: 10px; font-size: 12px;}
+                dd{margin-bottom: 10px; font-size: 12px; color: #555555;}
+            }
+            #animate1:hover #animate2{
+                display: block;
+            }
+        }
+        .main-con{
+            width: 740px;height: 100%;
+            margin-left: 12px;
+            float: left;
+            position: relative;
+            overflow: hidden;
+            li{
+                position: absolute;
+                width: 740px;height: 100%;
+                img{width: 100%; height: 100%;}
+            }
+        }
+        .main-right{
+            width: 220px;height: 100%;
+            margin-left: 18px;
+            float: left;
+            border: 1px dotted #D9D9D9;
+            .main-right-top{
+                width: 100%; height: 42px;line-height: 42px;
+                border-bottom: 1px dotted #D9D9D9;
+                b{float: left; margin-left: 5px; font-size: 18px;}
+                p{float: right; margin-right: 5px;}
+            }
+            .lunbo{
+                height: 162px; width: 100%;
+                padding: 5px; 
+                border-bottom: 1px solid #D9D9D9;
+                position: relative;
+                overflow: hidden;
+                div{
+                    width: 100%; height: 100%;
+                    position: absolute;
+                    top: -25px;
+                    p{width: 100%; font-size: 11px; height: 30px; line-height: 30px; color: #888888;margin: 0;}
+                    b{color: black;}
+                }
+            }
+            >div:nth-of-type(4){
+                p{margin-left: 5px !important; font-size: 12px; height: 30px; margin: 0; line-height: 30px;}
+                img{margin-left: 5px; width: 95%; height: 105px;}
+            }
+        }
+    }
+    .column{
+        width: 100%; height: 231px;
+        .column-left{
+            width: 211px;height: 100%;
+            float: left;
+            img{width: 100%; height: 100%;}
+        }
+        .column-right{
+            width: 978px; height: 100%;
+            margin-left: 12px;
+            float: left;
+            >div{
+                width: 100%; height: 100%;
+                img{width: 24.5%; height: 100%;}
+            }
+        }
+    }
+    .img{
+        width: 100%; height: 110px;
+        margin-top: 23px;
+    }
+    .hot-top{
+        width: 100%;height: 41px;
+        margin-top: 22px;
+        border-bottom: 1px solid #FE6522;
+        .hot-top-lf{
+            width: 154px; height: 100%;
+             float: left;
+            img{width: 38px; height: 38px;float: left;}
+            p{float: left; height: 20px; line-height: 20px; margin-top: 15px; color: orangered;}
+         }
+         .hot-top-rg{
+             width: 345px; height: 100%;
+             float: right;
+             li{
+                 width: 20%; line-height: 41px;
+                 float: left;
+                 font-size: 14px;
+             }
+         }
+    }
+    
+    .hot-bottom{
+         width: 100%; height: 442px;
+         .hot-bottom-lf{
+            width: 211px; height: 100%;
+            background: #E4F7EC;
+            float: left;
+            img{height: 287px;}
+            div{
+                height: 155px;
+                p{height: 30px; line-height: 30px; padding-left: 10px; border-bottom: 1px dotted #999999;color: #555555;}
+                span{margin-left: 10px;}
+            }
+         }
+         .hot-bottom-rg{
+            width: 978px; height: 100%;
+            margin-left: 12px;
+            float: left;
+            div{
+                width: 25%;height: 50%;
+                float: left;
+                img:hover{width: 75%; height: 60%; margin-top: -10px;}
+                text-align: center;
+                span{height: 30px; line-height: 30px; margin-top: 10px;}
+                p{height: 30px; line-height: 30px; color: orangered; margin-bottom: 10px;}
+                img{width: 60%; height: 50%;}
+                .hot-bottom-rgi{width: 100%; height: 100%;}
+                .hot-bottom-rgi:hover{width: 100%; height: 100%; margin-top: 0px;}
+            }
+         }
+    }
+}
+#LoutiNav{
+    width: 32px;
+    position: fixed;
+    top: 300px;
+    left: 15px;
+    border: 1px solid #ddd;
+    display: none;
+    ul{
+        margin: 0;background: white;
+        li.last {background: darkred;color: white;}
+        li:hover span {background: darkred;color: white;display: block;}
+        li.hover span.active {background: white;color: red;display: block;}
+        li:hover span.active{display: block;background: darkred;color: white;}
+        li{
+            width: 32px;height: 32px;
+            border-bottom: 1px dotted #DDDDDD;
+            font-size: 12px; color: #666;
+            text-align: center;line-height: 32px;
+            position: relative;
+            span {
+                width: 32px;height: 32px;
+                position: absolute;
+                top: 0;left: 0;
+                display: none;
+            }
+        }
+    }
+}
+#main {
+    width: 1201px;
+    .Louti {
+        height: auto;
+        width: 1201px;
+    }
+}

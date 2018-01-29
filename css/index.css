@@ -1,0 +1,324 @@
+body, ul, p, img, p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+section {
+  width: 1201px;
+  margin: 0 auto;
+  margin-bottom: 5px; }
+  section .content {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 2px solid #FF4300; }
+    section .content div {
+      width: 211px;
+      height: 100%;
+      float: left;
+      padding-left: 35px;
+      background: #FF3C3C; }
+      section .content div a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none; }
+    section .content ul {
+      width: 620px;
+      margin: 0;
+      float: left;
+      margin-left: 12px; }
+      section .content ul li {
+        float: left;
+        font-size: 12px;
+        margin-left: 10px; }
+    section .content p {
+      width: 130px;
+      margin: 0;
+      margin-left: 16px;
+      float: left; }
+  section .main {
+    width: 100%;
+    height: 399px;
+    float: left;
+    margin-bottom: 22px; }
+    section .main .main-left {
+      width: 211px;
+      height: 100%;
+      background: #B01D1D;
+      float: left;
+      position: relative;
+      color: white; }
+      section .main .main-left #animate1 {
+        height: 40px;
+        line-height: 40px; }
+        section .main .main-left #animate1 img {
+          float: left;
+          margin-left: 10px;
+          margin-top: 11px; }
+        section .main .main-left #animate1 p {
+          float: left;
+          margin-left: 10px;
+          margin-bottom: 0; }
+        section .main .main-left #animate1 span {
+          float: right;
+          margin-right: 10px;
+          margin-top: 10px; }
+      section .main .main-left #animate1:hover {
+        background: white;
+        color: orangered;
+        margin-left: 10px; }
+      section .main .main-left #animate2 {
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 211px;
+        padding: 20px;
+        background: white;
+        width: 980px;
+        height: 399px;
+        color: black;
+        z-index: 2; }
+        section .main .main-left #animate2 .animate2-i {
+          float: right; }
+        section .main .main-left #animate2 li {
+          float: left;
+          width: 200px;
+          margin-right: 20px; }
+        section .main .main-left #animate2 img {
+          width: 230px;
+          height: 190px;
+          margin: 0; }
+        section .main .main-left #animate2 dl {
+          margin-bottom: 20px; }
+        section .main .main-left #animate2 dt {
+          margin-bottom: 10px;
+          font-size: 12px; }
+        section .main .main-left #animate2 dd {
+          margin-bottom: 10px;
+          font-size: 12px;
+          color: #555555; }
+      section .main .main-left #animate1:hover #animate2 {
+        display: block; }
+    section .main .main-con {
+      width: 740px;
+      height: 100%;
+      margin-left: 12px;
+      float: left;
+      position: relative;
+      overflow: hidden; }
+      section .main .main-con li {
+        position: absolute;
+        width: 740px;
+        height: 100%; }
+        section .main .main-con li img {
+          width: 100%;
+          height: 100%; }
+    section .main .main-right {
+      width: 220px;
+      height: 100%;
+      margin-left: 18px;
+      float: left;
+      border: 1px dotted #D9D9D9; }
+      section .main .main-right .main-right-top {
+        width: 100%;
+        height: 42px;
+        line-height: 42px;
+        border-bottom: 1px dotted #D9D9D9; }
+        section .main .main-right .main-right-top b {
+          float: left;
+          margin-left: 5px;
+          font-size: 18px; }
+        section .main .main-right .main-right-top p {
+          float: right;
+          margin-right: 5px; }
+      section .main .main-right .lunbo {
+        height: 162px;
+        width: 100%;
+        padding: 5px;
+        border-bottom: 1px solid #D9D9D9;
+        position: relative;
+        overflow: hidden; }
+        section .main .main-right .lunbo div {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: -25px; }
+          section .main .main-right .lunbo div p {
+            width: 100%;
+            font-size: 11px;
+            height: 30px;
+            line-height: 30px;
+            color: #888888;
+            margin: 0; }
+          section .main .main-right .lunbo div b {
+            color: black; }
+      section .main .main-right > div:nth-of-type(4) p {
+        margin-left: 5px !important;
+        font-size: 12px;
+        height: 30px;
+        margin: 0;
+        line-height: 30px; }
+      section .main .main-right > div:nth-of-type(4) img {
+        margin-left: 5px;
+        width: 95%;
+        height: 105px; }
+  section .column {
+    width: 100%;
+    height: 231px; }
+    section .column .column-left {
+      width: 211px;
+      height: 100%;
+      float: left; }
+      section .column .column-left img {
+        width: 100%;
+        height: 100%; }
+    section .column .column-right {
+      width: 978px;
+      height: 100%;
+      margin-left: 12px;
+      float: left; }
+      section .column .column-right > div {
+        width: 100%;
+        height: 100%; }
+        section .column .column-right > div img {
+          width: 24.5%;
+          height: 100%; }
+  section .img {
+    width: 100%;
+    height: 110px;
+    margin-top: 23px; }
+  section .hot-top {
+    width: 100%;
+    height: 41px;
+    margin-top: 22px;
+    border-bottom: 1px solid #FE6522; }
+    section .hot-top .hot-top-lf {
+      width: 154px;
+      height: 100%;
+      float: left; }
+      section .hot-top .hot-top-lf img {
+        width: 38px;
+        height: 38px;
+        float: left; }
+      section .hot-top .hot-top-lf p {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 15px;
+        color: orangered; }
+    section .hot-top .hot-top-rg {
+      width: 345px;
+      height: 100%;
+      float: right; }
+      section .hot-top .hot-top-rg li {
+        width: 20%;
+        line-height: 41px;
+        float: left;
+        font-size: 14px; }
+  section .hot-bottom {
+    width: 100%;
+    height: 442px; }
+    section .hot-bottom .hot-bottom-lf {
+      width: 211px;
+      height: 100%;
+      background: #E4F7EC;
+      float: left; }
+      section .hot-bottom .hot-bottom-lf img {
+        height: 287px; }
+      section .hot-bottom .hot-bottom-lf div {
+        height: 155px; }
+        section .hot-bottom .hot-bottom-lf div p {
+          height: 30px;
+          line-height: 30px;
+          padding-left: 10px;
+          border-bottom: 1px dotted #999999;
+          color: #555555; }
+        section .hot-bottom .hot-bottom-lf div span {
+          margin-left: 10px; }
+    section .hot-bottom .hot-bottom-rg {
+      width: 978px;
+      height: 100%;
+      margin-left: 12px;
+      float: left; }
+      section .hot-bottom .hot-bottom-rg div {
+        width: 25%;
+        height: 50%;
+        float: left;
+        text-align: center; }
+        section .hot-bottom .hot-bottom-rg div img:hover {
+          width: 75%;
+          height: 60%;
+          margin-top: -10px; }
+        section .hot-bottom .hot-bottom-rg div span {
+          height: 30px;
+          line-height: 30px;
+          margin-top: 10px; }
+        section .hot-bottom .hot-bottom-rg div p {
+          height: 30px;
+          line-height: 30px;
+          color: orangered;
+          margin-bottom: 10px; }
+        section .hot-bottom .hot-bottom-rg div img {
+          width: 60%;
+          height: 50%; }
+        section .hot-bottom .hot-bottom-rg div .hot-bottom-rgi {
+          width: 100%;
+          height: 100%; }
+        section .hot-bottom .hot-bottom-rg div .hot-bottom-rgi:hover {
+          width: 100%;
+          height: 100%;
+          margin-top: 0px; }
+
+#LoutiNav {
+  width: 32px;
+  position: fixed;
+  top: 300px;
+  left: 15px;
+  border: 1px solid #ddd;
+  display: none; }
+  #LoutiNav ul {
+    margin: 0;
+    background: white; }
+    #LoutiNav ul li.last {
+      background: darkred;
+      color: white; }
+    #LoutiNav ul li:hover span {
+      background: darkred;
+      color: white;
+      display: block; }
+    #LoutiNav ul li.hover span.active {
+      background: white;
+      color: red;
+      display: block; }
+    #LoutiNav ul li:hover span.active {
+      display: block;
+      background: darkred;
+      color: white; }
+    #LoutiNav ul li {
+      width: 32px;
+      height: 32px;
+      border-bottom: 1px dotted #DDDDDD;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      line-height: 32px;
+      position: relative; }
+      #LoutiNav ul li span {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none; }
+
+#main {
+  width: 1201px; }
+  #main .Louti {
+    height: auto;
+    width: 1201px; }
+
+/*# sourceMappingURL=index.css.map */

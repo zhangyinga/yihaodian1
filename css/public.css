@@ -1,0 +1,291 @@
+body, ul, li, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 163px;
+  font-size: 12px; }
+  header .header-top {
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background: linear-gradient(#D1D1D1, white); }
+    header .header-top li:hover {
+      color: orangered; }
+    header .header-top .posi {
+      position: relative; }
+      header .header-top .posi ol {
+        position: absolute;
+        padding: 0;
+        width: 100px;
+        left: 0;
+        display: none; }
+        header .header-top .posi ol li {
+          margin: 0;
+          width: 100%;
+          color: black; }
+    header .header-top li:hover ol {
+      display: block; }
+    header .header-top .header-top-lf {
+      width: 75px;
+      float: left; }
+    header .header-top .header-top-rg {
+      width: 560px;
+      height: 100%;
+      float: right; }
+      header .header-top .header-top-rg li {
+        float: left;
+        height: 100%;
+        height: 100%;
+        line-height: 30px; }
+        header .header-top .header-top-rg li a {
+          color: #FF4E00; }
+  header .header-bottom {
+    width: 1141px;
+    height: 90px;
+    float: left;
+    margin-top: 51px; }
+    header .header-bottom .header-bottom-lf {
+      float: left;
+      width: 183px;
+      height: 78px; }
+    header .header-bottom .header-bottom-co {
+      width: 449px;
+      float: left;
+      margin-left: 128px; }
+      header .header-bottom .header-bottom-co div:nth-of-type(1) input {
+        width: 407px;
+        height: 36px;
+        border: 1px solid #FF3C3C; }
+      header .header-bottom .header-bottom-co div:nth-of-type(1) button {
+        width: 40px;
+        height: 40px;
+        background: #FF3C3C;
+        color: white;
+        border: #FF3C3C; }
+      header .header-bottom .header-bottom-co ul {
+        width: 100%;
+        margin-top: 5px; }
+        header .header-bottom .header-bottom-co ul li {
+          float: left;
+          margin-right: 10px; }
+    header .header-bottom .header-bottom-rg {
+      float: left;
+      margin-left: 213px;
+      padding: 10px;
+      width: 90px;
+      height: 20px;
+      color: #737373;
+      position: relative;
+      background: #F6F6F6;
+      border: 1px solid #E3E3E3; }
+      header .header-bottom .header-bottom-rg button {
+        border: none;
+        background: #F6F6F6;
+        width: 100%;
+        height: 100%; }
+      header .header-bottom .header-bottom-rg .posi {
+        width: 300px;
+        height: 570px;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        border: 1px solid red;
+        color: #555555;
+        display: none;
+        background: white; }
+        header .header-bottom .header-bottom-rg .posi .gouwu {
+          width: 100%;
+          height: 165px;
+          box-sizing: border-box;
+          padding: 0 5px; }
+          header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-top {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            background: #FAFAFA; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-top h3 {
+              margin: 0;
+              float: left; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-top p {
+              float: right;
+              margin: 0; }
+          header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con {
+            width: 100%;
+            height: 90px; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con img {
+              width: 90px;
+              height: 100%;
+              float: left; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div {
+              float: left;
+              margin-left: 10px;
+              width: 140px;
+              height: 100%;
+              box-sizing: border-box;
+              padding: 5px 0; }
+              header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div b, header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div p {
+                font-size: 11px; }
+              header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div p {
+                margin: 7px 0; }
+              header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div div {
+                width: 92px;
+                height: 34px;
+                border: 1px solid #CFCFCF; }
+                header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div div button {
+                  width: 28px;
+                  height: 34px;
+                  float: left;
+                  background: #F5F5F5; }
+                header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div div button:nth-of-type(1) {
+                  border-right: 1px solid #CFCFCF; }
+                header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div div button:nth-of-type(2) {
+                  border-left: 1px solid #CFCFCF; }
+                header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con > div div span {
+                  float: left;
+                  width: 36px;
+                  height: 32px;
+                  border: none;
+                  text-align: center;
+                  line-height: 32px; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con .gouwu-bot {
+              width: 35px;
+              float: right; }
+              header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con .gouwu-bot p:nth-of-type(1) {
+                margin-left: 20px;
+                margin-bottom: 25px;
+                margin-top: 0; }
+              header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-con .gouwu-bot p:nth-of-type(2) {
+                color: red;
+                font-weight: 800; }
+          header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-p {
+            background: #FFF9F3;
+            height: 25px;
+            margin-top: 10px !important;
+            margin: 0;
+            line-height: 25px;
+            border-bottom: 1px solid #E5E5E5; }
+          header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-a {
+            width: 100%;
+            text-align: center;
+            height: 38px;
+            line-height: 38px; }
+          header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-j {
+            width: 288px;
+            height: 50px;
+            border: 1px solid #D0D6D6; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-j div {
+              width: 144px;
+              height: 100%;
+              float: left;
+              line-height: 50px;
+              text-align: center; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-j .bt1 {
+              background: #F8F8F8; }
+            header .header-bottom .header-bottom-rg .posi .gouwu .gouwu-j .bt2 {
+              background: #FF5C4D;
+              color: white; }
+
+footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px; }
+  footer .footer-top {
+    width: 827px;
+    margin: 0 auto;
+    height: 124px;
+    text-align: center; }
+    footer .footer-top dl {
+      width: 25%;
+      float: left;
+      margin: 0; }
+      footer .footer-top dl img {
+        widows: 64px;
+        height: 64px; }
+      footer .footer-top dl dt {
+        margin-top: 12px; }
+      footer .footer-top dl dd {
+        margin-top: 9px;
+        font-size: 12px;
+        color: #979797; }
+  footer .footer-co {
+    width: 1050px;
+    height: 114px;
+    margin: 0 auto;
+    margin-top: 56px; }
+    footer .footer-co .footer-co-lf {
+      width: 697px;
+      height: 154px;
+      float: left; }
+      footer .footer-co .footer-co-lf dl {
+        width: 20%;
+        float: left;
+        margin: 0; }
+        footer .footer-co .footer-co-lf dl img {
+          width: 70px;
+          height: 70px; }
+        footer .footer-co .footer-co-lf dl dt {
+          margin-top: 0.4rem; }
+        footer .footer-co .footer-co-lf dl dd {
+          margin-top: 0.4rem;
+          font-size: 12px;
+          color: #979797; }
+    footer .footer-co .footer-co-rg {
+      width: 280px;
+      height: 172px;
+      float: right; }
+      footer .footer-co .footer-co-rg div {
+        float: left; }
+        footer .footer-co .footer-co-rg div p {
+          margin: 10px 0; }
+      footer .footer-co .footer-co-rg div:nth-of-type(1) {
+        font-size: 12px; }
+        footer .footer-co .footer-co-rg div:nth-of-type(1) img {
+          width: 135px;
+          height: 135px; }
+      footer .footer-co .footer-co-rg div:nth-of-type(2) {
+        font-size: 12px;
+        margin-left: 10px; }
+        footer .footer-co .footer-co-rg div:nth-of-type(2) img {
+          width: 15px;
+          height: 15px; }
+      footer .footer-co .footer-co-rg span {
+        color: orangered;
+        margin-top: 5px; }
+  footer .header-bottom-col {
+    margin-top: 42px;
+    height: 23px;
+    width: 100%;
+    font-size: 12px;
+    color: #9A9799;
+    float: left; }
+    footer .header-bottom-col p {
+      width: 948px;
+      margin: 0 auto; }
+  footer .footer-bottom {
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    float: left; }
+    footer .footer-bottom div {
+      width: 700px;
+      height: 39px;
+      margin: 0 auto; }
+      footer .footer-bottom div img {
+        width: 15%;
+        height: 100%;
+        margin-left: 10px; }
+
+.footer-top dl img {
+  transition: all 3s; }
+
+.footer-top dl img:hover {
+  transform: rotate(360deg) scale(1.2); }
+
+/*# sourceMappingURL=public.css.map */

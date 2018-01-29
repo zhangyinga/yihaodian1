@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/regsiter.css"/>
+	</head>
+	<body>
+		<section>
+			<div class="regsiter-top">
+				<img src="images/img-1_05.png"/>
+				<ul>
+					<li>你好,欢迎登陆1号店！</li>
+					<li><a href="#">请登录</a></li>
+					<img src="images/img-1_62.png"/>
+				</ul>
+			</div>
+			<div class="regsiter-bot">
+				<div class="regsiter-bot-top">
+					<h2>1号店注册</h2>
+					<form action="log.html" method="get" class="reg-form">
+						<input type="text" id="uName" placeholder="姓名"  pattern="[a-zA-Z0-9]{6,10}"/>
+						<div><input type="text" placeholder="手机号"/ pattern="^1[34578][0-9]{9}$"><button>获取验证码</button></div>
+						<input  type="password" id="pwd" placeholder="设置密码" type="password" id="pwd"/>
+						<input type="text" placeholder="确认密码"/>
+						<p>点击注册，表示您同意1号店<a href="#">《服务协议》</a></p>
+						<button type="submit" id="submit" >同意协议并注册</button>
+						<p>沪ICP备13044278&nbsp;|&nbsp;合字B1-B2-20130004&nbsp;|&nbsp;营业执照</p>
+						<p>Copyright&nbsp;©&nbsp;1号店网上超市&nbsp;2007-2016，ALL&nbsp;Rights&nbsp;Reserved</p>
+					</form>	
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	 <script type="text/javascript">
+    	$("#submit").click(function () {
+    		var u=document.getElementById("uName");
+    		if (u.validity.valueMissing==true) {
+    			u.setCustomValidity("昵称不能为空")
+    		}else if(u.validity.patternMismatch==true){
+    			u.setCustomValidity("昵称必须是6-10位的字符和数字")
+    		}
+    		else{
+    			u.setCustomValidity("")
+    		}
+    		
+    		var pwd=document.getElementById("pwd");
+    		if (pwd.validity.valueMissing==true) {
+    			pwd.setCustomValidity("密码不能为空")
+    		}else if(pwd.validity.patternMismatch==true){
+    			pwd.setCustomValidity("密码必须是6-16位的字符和数字")
+    		}
+    		else{
+    			pwd.setCustomValidity("")
+    		}
+    	})  	   	   	
+    </script>
+</html>

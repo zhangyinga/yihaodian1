@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0; list-style: none;}
+
+section{
+    width: 1201px; margin: 0 auto;
+    .search-top{
+        width: 100%; height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        span{border: 1px dotted #FF3C3C; padding: 5px 10px;}
+    }
+    .search-bot{
+        width: 99.6%;
+        height: 210px;
+        border: 2px solid #CCCCCC;
+        .active{color: orangered;}
+        >div:nth-of-type(1){height: 70px;div:nth-of-type(2){line-height: 20px;padding-top: 10px;}}
+        >div:nth-of-type(4){border: none;}
+        >div{
+            height: 45px; border-bottom: 1px solid #CCCCCC; 
+            line-height: 45px;font-size: 14px;
+            div:nth-of-type(1){
+                width: 10%; margin-left: 10px;
+                float: left;
+            }
+            div:nth-of-type(2){
+                width: 89%;
+                float: left;
+            }
+        }
+    }
+    .search-con{
+        width: 100%;
+        margin-top: 20px;
+        .search-con-lf{
+            width: 211px; height: auto;
+            float: left;
+            border: 1px solid #EAEAEA;
+            div{
+                width: 100%; height: 40px;line-height: 40px;
+                border-bottom: 1px solid #EAEAEA;
+                p:nth-of-type(1){float: left;margin-left: 10px; color: orangered;}
+                p:nth-of-type(2){float: right; margin-right: 10px; font-size: 12px;}
+            }
+            ul{
+                width: 100%; 
+                li{
+                    width: 100%; height: 224px; border-bottom: 1px solid #EAEAEA;
+                    img{width: 183px; height: 164px;}
+                    p{text-align: center; margin-top: 5px;}
+                    p:nth-of-type(2){color: #B00504;}
+                }
+            }
+        }
+        .search-con-rg{
+            width: 973px; height: 100px;
+            float: left;
+            .search-con-rg-top{
+                border-bottom: 1px solid #EAEAEA;
+                height: 40px;line-height: 40px;
+                div {
+                    float: left;
+                    width: 35%;
+                    height: 100%;
+                    margin-top: 6px;
+                    p {
+                        width: 71px;height: 24px;
+                        line-height: 24px;float: left;
+                        text-align: center;
+                        font-size: 12px;border: 1px solid #EAEAEA;
+                    }
+               }
+                >p{float: right; font-size: 12px;}
+            }
+            .search-con-rg-bot{
+                width: 100%;
+                float: left;
+                >div {
+                    width: 210px;height: 293px;
+                    float: left;
+                    margin-left: 30px; margin-top: 40px;
+                    >img{width: 90% !important; height: 65% !important; padding-left: 5%;}
+                    >span{padding: 40%; color: orangered; margin-top: 10px; font-size: 12px;}
+                    >p{color: #555555; font-size: 14px;}
+                    >p{text-align: center; margin-top: 5px;}
+                    >img{width: 100%; height: 189px;}
+                    div{margin-top: 12px; font-size: 12px; line-height: 30px;img{margin-left: 10px; float: left; margin-top: 10px;} p{float: left; margin-left: 8px;}}
+                    div:nth-of-type(1) {
+                        width: 70px;height: 30px;
+                        border: 1px solid #EAEAEA;float: left;
+                    }
+                    div:nth-of-type(2) {
+                        width: 135px;height: 30px;
+                        border: 1px solid #EAEAEA;
+                        float: right;
+                        border-left: none;
+                        img{margin-top: 4px;}
+                    }
+                }
+            }
+            .search-bott{
+                width: 35%;
+                margin-top: 30px;
+                float: right;
+                li{color: #9C9D9A; float: left; font-size: 12px; width: 28px; height: 28px; border: 1px solid #E1E1E1;text-align: center; line-height: 28px; margin-left: 10px;}
+                li:nth-of-type(1),li:nth-of-type(7){width: 54px; height: 28px;}
+            }
+        }
+    }
+}
